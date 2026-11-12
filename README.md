@@ -72,13 +72,14 @@ The modules `re`, `shlex`, `pathlib`, and `typing` are part of the Python standa
 
 To use the program, simulation results must be exported from LTspice in text (`.txt`) format.
 
-General procedure:
+Follow these steps:
 
 1. Run the desired simulation in LTspice.
-2. Open the simulation results window.
-3. Select the signals to be exported.
-4. Export the data in TXT format.
-5. Save the file in the project directory or in an accessible location.
+2. Once the simulation is complete, open the waveform viewer displaying the generated waveforms.
+3. Right-click anywhere inside the waveform viewer.
+4. Select **File → Export data as text**.
+5. Choose the signals you want to export, if prompted.
+6. Save the exported file in the project directory or in another accessible location.
 
 The program uses the headers and numerical data contained in the exported file to automatically identify the columns and interpret the simulation results.
 
